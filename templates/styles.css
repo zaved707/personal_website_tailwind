@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes:  corporate, forest, coffee;
+  }
+@font-face {
+    font-family: Royal Hefana;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/royal_hefana_regular.ttf") format("woff2");
+  }
+  @font-face {
+    font-family: Doto;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/Doto-Bold.ttf") 
+  }
+  @font-face {
+    font-family: greatVibes;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/greatVibes.ttf") 
+  }
+
+@theme{
+    --font-royal: Royal Hefana, "mono";
+    --font-doto: doto, "mono";
+    --font-greatVibes: greatVibes;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <html data-theme="coffee"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="./compiled.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="bg-accent flex items-center justify-center">
+      <div
+        class="navbar-end outline-accent-content justify-left fixed top-0 z-10 w-full bg-white/10 shadow-2xl outline-3 backdrop-blur-sm"
+      >
+        <h1 class="font-greatVibes text-primary flex-1 text-4xl underline">
+          Zaved AhmaD
+        </h1>
+        <div class="flex-none">
+          <button class="btn btn-square btn-ghost">About</button>
+        </div>
+      </div>
+    </div> -->
+    <!-- Content Area -->
+    <div class="fixed flex bg-accent/10 align-middle justify-center h-1/15 w-full left-0 right-0 z-10  backdrop-blur-2xl">
+      <span class="text-3xl mt-2 font-greatVibes">Zaved Ahmad</span>
+    </div>
+    <div
+      style="background-image: url(&quot;./images/image_bg.jpg&quot;)"
+      class="flex h-svh items-center justify-center bg-cover bg-top pt-16"
+    >
+      <div
+        class="shadow-base bg-primary/30 mx-10 flex w-100 flex-col items-center justify-center rounded-xl p-5 shadow-2xl backdrop-blur-sm"
+      >
+        <h1 class="textarea-primary font-doto text-2xl">WELCOME!</h1>
+        <p class="text-primary-content text-center text-lg">
+          I’m Zaved—passionate about AI, web dev, and fitness. Let’s explore,
+          create, and grow together!
+        </p>
+        <button onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+        class="btn bg-primary text-accent-content mt-5 p-5">
+          Learn More
+        </button>
+      </div>
+    </div>
+    <div style="background-image: url('./images/cubes2.jpg');" class="h-lvh bg-center bg-cover p-20 relative">
+      <!-- Main Grid for Text Boxes -->
+      <div class="grid gap-15 lg:grid-cols-2 lg:pt-40 lg:gap-x-40 grid-cols-1 items-center justify-center">
+        <div class="bg-accent/20 text-accent-content p-5 rounded-2xl backdrop-blur-2xl shadow-2xl">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit in deserunt omnis dicta non, provident, ea expedita odio earum harum similique vel tempora? Deleniti provident unde quis tempora aliquam consequuntur!
+        </div>
+        <div class="bg-amber-400/20 text-secondary-content p-5 rounded-2xl backdrop-blur-2xl shadow-2xl">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio numquam quaerat ea dolores quos quisquam aut. Reiciendis, ducimus obcaecati quam blanditiis ipsa consequuntur, ipsum quidem necessitatibus,
+        </div>
+      </div>
+     
+      <!-- Images at Center Bottom -->
+      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 grid grid-cols-2 gap-4">
+        <img src="./images/Octicons-mark-github.svg" alt="GitHub" class="btn btn-ghost bg-accent/10 backdrop-blur-2xl shadow-2xl p-5 rounded-2xl size-20">
+        <a href="https://www.instagram.com" class="btn btn-ghost bg-accent/10 backdrop-blur-2xl shadow-2xl p-5 rounded-2xl size-20">
+          <img src="./images/instagram.svg" alt="Instagram" class="">
+        </a>
+      </div>
+      <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 grid grid-cols-2 gap-4">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost bg-accent/10 backdrop-blur-2xl shadow-2xl p-5 rounded-2xl size-20">
+          <img src="./images/Octicons-mark-github.svg" alt="GitHub" class="">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-ghost bg-accent/10 backdrop-blur-2xl shadow-2xl p-5 rounded-2xl size-20">
+          <img src="./images/instagram.svg" alt="Instagram" class="">
+        </a>
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>

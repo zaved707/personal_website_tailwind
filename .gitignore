@@ -1,0 +1,14 @@
+# Directories to ignore
+git/
+svn/
+hg/
+node_modules/
+vscode/
+# extentions to ignore
+
+*.exe
+
+# files to ignore
+daisyui.js
+
+
